@@ -42,3 +42,5 @@ if Ingredients_list:
 st.success('Your Smoothie is ordered!', icon="✅")
 st.stop()
 
+cnx= st.connection("snowflake")
+session = cnx.session()
