@@ -1,4 +1,6 @@
 #requirement.txt
+streamlit
+col
 scikit-learn
 snowflake-connector-python
 snowflake-snowpark-python
